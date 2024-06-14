@@ -1,0 +1,52 @@
+.CartTotal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.CartTotal .title {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.CartTotal .CartInfo {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+}
+
+.CartTotal .CartInfo .cartTotalChild {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.CartTotal .CartInfo .cartTotalChild span {
+    font-size: 18px;
+    color: rgb(67, 67, 67);
+}
+
+.CartTotal button {
+    background-color: #f14447;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px 1px #ffc7c7;
+    margin: 20px;
+}
+
+
+
+@media screen and (max-width :600px) {
+    .CartTotal {
+        margin: 2rem 0;
+    }
+}

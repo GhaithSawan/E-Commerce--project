@@ -1,0 +1,57 @@
+* {
+    font-family: "Cairo", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #fad4ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border: 1px rgb(174, 174, 174) solid;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.page {
+    background-color: #fbfbfb;
+    min-height: 90vh;
+}
+
+input {
+    outline: none !important;
+}
+
+.HeroinShop {
+    background: #fad4ff;
+    background: linear-gradient(180deg, rgba(250, 212, 255, 1) 0%, rgba(253, 234, 255, 1) 49%, rgba(217, 179, 222, 1) 100%);
+}
+
+.ShopCategory button {
+    box-shadow: 0 0 0 0 #dfdfdf;
+    transition: .1s all ease-in-out;
+    margin: 1rem 0;
+}
+
+.ShopCategory button:hover {
+    box-shadow: 0 0 2px 2px #dfdfdf !important;
+}
+
+
+@media screen and (max-width :600px) {
+    * {
+        text-align: center;
+    }
+
+    .ShopCategory_img {
+        display: none;
+    }
+}

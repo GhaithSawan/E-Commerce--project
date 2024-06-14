@@ -1,0 +1,40 @@
+.SideBar{
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10px;
+    
+
+}
+.SideBar .title{
+    font-size: 30px;
+    padding: 0 10px;
+
+}
+
+.SideBar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.SideBar a{
+    list-style: none;
+    color: rgb(65, 65, 65);
+    font-size: 25px;
+    transition: .2s all ease-in-out;
+    padding: 5px;
+    width: 100%;
+
+}
+.SideBar a:hover{
+    border-radius: 5px;
+    background-color: rgb(251, 251, 251);
+}
+

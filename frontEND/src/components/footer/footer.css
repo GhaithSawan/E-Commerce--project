@@ -1,0 +1,32 @@
+.info_footer{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+}
+.info_footer .title{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.info_footer ul{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.info_footer li{
+    list-style: none;
+}
+.info_footer .logos{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

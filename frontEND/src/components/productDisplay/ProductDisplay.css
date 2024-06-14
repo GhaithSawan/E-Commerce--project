@@ -1,0 +1,39 @@
+.basicImage{
+    width: 500px;
+}
+.moreimage{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.ProductDisplay ul{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.ProductDisplay li{
+    list-style: none;
+    background-color: rgb(243, 243, 243);
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+.ProductDisplay button {
+    border: none;
+    background-color: #f53e40;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+ 
+@media screen and(max-width:600px){
+    .desc{
+        align-items: center !important;
+    }
+    
+}

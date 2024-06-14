@@ -1,0 +1,19 @@
+.card{
+    border: none !important;
+    padding: 30px !important;
+    height: max-content !important;
+}
+.card label{
+    display: block !important;
+    font-size: 20px;
+    padding: 5px;
+}
+.card input{
+    width: 100%;
+    padding: 5px;
+
+}
+.card textarea{
+    width: 100%;
+    outline: none;
+}

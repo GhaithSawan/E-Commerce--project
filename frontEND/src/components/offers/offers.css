@@ -1,0 +1,34 @@
+.Offers {
+    background: rgb(250, 212, 255);
+    background: linear-gradient(180deg, rgba(250, 212, 255, 1) 0%, rgba(253, 234, 255, 1) 49%, rgba(217, 179, 222, 1) 100%);
+    border-radius: 10px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.left {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right {
+    height: 100%;
+}
+
+.right img {
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width:450px) {
+    .Offers {
+        height: 650px;
+    }
+
+    .right {
+        height: 50%;
+    }
+}

@@ -1,0 +1,49 @@
+.Letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(250, 212, 255);
+    background: linear-gradient(180deg, rgba(250, 212, 255, 1) 0%, rgba(253, 234, 255, 1) 49%, rgba(217, 179, 222, 1) 100%);
+    border-radius: 10px;
+}
+
+.Letter input {
+    border: none;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0px 0px 4px 1px #00000044;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    outline: none;
+    width: 250px !important;
+}
+
+.Letter button {
+    border: none;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0px 0px 0px 1px #00000044;
+    padding: 10.6px 20px;
+    transition: .2s all ease;
+    background-color: rgb(23, 23, 23) !important;
+    color: white;
+}
+
+.Letter button:hover {
+    color: black;
+    background-color: rgb(255, 255, 255) !important;
+    border: none;
+}
+
+@media screen and (max-width :600px) {
+    .Letter {
+        text-align: center;
+    }
+
+    .Letter input,
+    .Letter button {
+        border-radius: 10px
+    }
+    .Letter input {
+        width: 150px !important;
+    }
+}

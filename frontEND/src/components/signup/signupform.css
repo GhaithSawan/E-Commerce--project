@@ -1,0 +1,37 @@
+.Signupform{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex ;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    margin: auto;
+}
+
+.Signupform form {
+    display: flex ;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+
+}
+.Signupform form  input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.Signupform form  button{
+    background-color: red;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0 ;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
