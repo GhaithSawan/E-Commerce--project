@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 module.exports = async () => {
     try {
         // استبدل 'test' باسم قاعدة البيانات التي ترغب في استخدامها
-        const dbURI = 'mongodb+srv://ghaithx1x2x3:XnW6akfYx0OdsgqYEW@cluster0.11picll.mongodb.net/storeProject?retryWrites=true&w=majority&appName=Cluster0';
+        const dbURI = `${process.env.URLDB}`;
         
         await mongoose.connect(dbURI, {
             useNewUrlParser: true,
